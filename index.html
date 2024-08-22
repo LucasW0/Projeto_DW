@@ -10,41 +10,68 @@
     <!-- Cabeçalho da página -->
     <header>
         <!-- Título principal da página -->
-        <h1>Denúncias para Foco de Incêndio</h1>
+         <div class="menu">
+            <h1>Denúncias para Foco de Incêndio</h1>
+         </div>
+
     </header>
 
     <!-- Main content da página -->
     <main>
-        <!-- Seção para monitoramento de focos de incêndio -->
-        <section id="info">
-            <!-- Subtítulo da seção -->
-            <h2>Monitoramento de Focos de Incêndio</h2>
-            <!-- Botão para carregar dados dos focos de incêndio -->
-            <button id="loadData">Carregar Dados</button>
-            <!-- Div onde os dados dos focos de incêndio serão exibidos -->
-            <div id="data"></div>
+        <!-- Seção para concientização de focos de incêndio -->
+        <section id="conscientizacao">
+            <div class="banner">
+                <img src="img/bannerCentral.PNG" alt=" Banner Impacto dos incêndios" />
+            </div>
+            
         </section>
+        
+        <br>
+        <br>
+        <br>
 
-        <!-- Seção para informar um novo foco de incêndio -->
-        <section id="report">
-            <!-- Subtítulo da seção -->
-            <h2>Informar Novo Foco de Incêndio</h2>
-            <!-- Formulário para submissão de novos focos de incêndio -->
-            <form id="reportForm">
-                <!-- informar a latitude -->
-                <input type="number" id="latitude" placeholder="Latitude" step="any" required>
-                <!--  informar a longitude -->
-                <input type="number" id="longitude" placeholder="Longitude" step="any" required>
-                <!-- informar a intensidade do foco -->
-                <input type="text" id="intensidade" placeholder="Intensidade do Foco" required>
-                <!-- informar a data do foco -->
-                <input type="date" id="dataFoco" required>
-                <!-- Botão para enviar o formulário -->
-                <button type="submit">Enviar</button>
-            </form>
-            <!-- Div onde serão exibidas mensagens de sucesso ou erro -->
-            <div id="mensagem"></div>
-        </section>
+
+
+        <!-- Seção para monitoramento de focos de incêndio -->
+        <div class="container">
+            <section id="info">
+                <!-- Subtítulo da seção -->
+                <h2>Monitoramento de Focos de Incêndio</h2>
+                <!-- Botão para carregar dados dos focos de incêndio -->
+                <button id="loadData">Carregar Dados</button>
+                <!-- Div onde os dados dos focos de incêndio serão exibidos -->
+                <div id="data"></div>
+                <!-- Botão para acessar o site do INPE -->
+                <a href="https://terrabrasilis.dpi.inpe.br/queimadas/situacao-atual/situacao_atual/" target="_blank">
+                    <button id="situacao" type="button">Ver Situação Atual no INPE</button>
+                </a>
+            </section>
+
+            <!-- Seção para informar um novo foco de incêndio -->
+            <section id="report">
+                <!-- Subtítulo da seção -->
+                <h2>Informar Novo Foco de Incêndio</h2>
+                <!-- Formulário para submissão de novos focos de incêndio -->
+                <form id="reportForm">
+                    <!-- informar a latitude -->
+                    <input type="number" id="latitude" placeholder="Latitude" step="any" required>
+                    <!--  informar a longitude -->
+                    <input type="number" id="longitude" placeholder="Longitude" step="any" required>
+                    <!-- informar a intensidade do foco -->
+                    <input type="text" id="intensidade" placeholder="Intensidade do Foco" required>
+                    <!-- informar a data do foco -->
+                    <input type="date" id="dataFoco" required>
+                    <!-- Botão para enviar o formulário -->
+                    <button type="submit">Enviar</button>
+                </form>
+                <!-- Div onde serão exibidas mensagens de sucesso ou erro -->
+                <div id="mensagem"></div>
+            </section>
+    </div>
+    <br>
+    <br>
+    <br>
+
     </main>
 
     <!-- Rodapé da página -->
