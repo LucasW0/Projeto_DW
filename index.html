@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncias para Foco de Incêndio</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <!-- Título principal da página -->
+        <h1>Denúncias para Foco de Incêndio</h1>
+    </header>
+
+    <!-- Main content da página -->
+    <main>
+        <!-- Seção para monitoramento de focos de incêndio -->
+        <section id="info">
+            <!-- Subtítulo da seção -->
+            <h2>Monitoramento de Focos de Incêndio</h2>
+            <!-- Botão para carregar dados dos focos de incêndio -->
+            <button id="loadData">Carregar Dados</button>
+            <!-- Div onde os dados dos focos de incêndio serão exibidos -->
+            <div id="data"></div>
+        </section>
+
+        <!-- Seção para informar um novo foco de incêndio -->
+        <section id="report">
+            <!-- Subtítulo da seção -->
+            <h2>Informar Novo Foco de Incêndio</h2>
+            <!-- Formulário para submissão de novos focos de incêndio -->
+            <form id="reportForm">
+                <!-- informar a latitude -->
+                <input type="number" id="latitude" placeholder="Latitude" step="any" required>
+                <!--  informar a longitude -->
+                <input type="number" id="longitude" placeholder="Longitude" step="any" required>
+                <!-- informar a intensidade do foco -->
+                <input type="text" id="intensidade" placeholder="Intensidade do Foco" required>
+                <!-- informar a data do foco -->
+                <input type="date" id="dataFoco" required>
+                <!-- Botão para enviar o formulário -->
+                <button type="submit">Enviar</button>
+            </form>
+            <!-- Div onde serão exibidas mensagens de sucesso ou erro -->
+            <div id="mensagem"></div>
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <!-- Texto de copyright do rodapé -->
+        <p>&copy; 2024 - Denúncias para Foco de Incêndio</p>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="script/script.js"></script>
+</body>
+</html>
