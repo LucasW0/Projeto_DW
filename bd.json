@@ -1,32 +1,20 @@
-{
-  "focosDeIncendio": [
-    {
-      "id": "1",
-      "latitude": -23.55052,
-      "longitude": -46.633308,
-      "intensidade": "Alta",
-      "data": "2024-08-21"
-    },
-    {
-      "id": "2",
-      "latitude": -22.906847,
-      "longitude": -43.172896,
-      "intensidade": "Média",
-      "data": "2024-08-20"
-    },
-    {
-      "id": "553b",
-      "latitude": "9",
-      "longitude": "-4",
-      "intensidade": "baixa",
-      "data": "2024-08-21"
-    },
-    {
-      "id": "068c",
-      "latitude": 22,
-      "longitude": -58,
-      "intensidade": "alta",
-      "data": "2024-08-21"
-    }
-  ]
-}
+[
+  {
+    "latitude": 213455,
+    "longitude": 2436,
+    "intensidade": "4325647",
+    "dataFoco": "2024-08-22"
+  },
+  {
+    "latitude": 52145536546,
+    "longitude": 123435,
+    "intensidade": "24564",
+    "dataFoco": "2024-08-22"
+  },
+  {
+    "latitude": 12112101,
+    "longitude": 2210221310,
+    "intensidade": "baixa",
+    "dataFoco": "2024-08-22"
+  }
+]
